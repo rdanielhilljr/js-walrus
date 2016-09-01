@@ -1,21 +1,27 @@
 
 $(document).ready(function() {
   $(".p1").click(function() {
-    $(".img1").slideToggle();
+    $("body").removeClass();
+      $("body").addClass("green-background");
+        $(".img1").slideToggle();
 
   });
 });
 
 $(document).ready(function() {
   $(".p2").click(function() {
-    $(".img2").fadeToggle();
+    $("body").removeClass();
+      $("body").addClass("yellow-background");
+        $(".img2").fadeToggle();
 
   });
 });
 
 $(document).ready(function() {
   $(".p3").click(function() {
-    $(".img3").fadeToggle();
-
+    $("body").removeClass();
+      $("body").addClass("red-background");
+        $(".img3").fadeToggle();
+          
   });
 });
